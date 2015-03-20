@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490BA7251AAE4F49005CB0C8 /* SecondLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BA7241AAE4F49005CB0C8 /* SecondLevelViewController.swift */; };
+		49BA2D8A1AAE464D000BA267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA2D891AAE464D000BA267 /* AppDelegate.swift */; };
+		49BA2D8C1AAE464D000BA267 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA2D8B1AAE464D000BA267 /* MasterViewController.swift */; };
+		49BA2D8E1AAE464D000BA267 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA2D8D1AAE464D000BA267 /* DetailViewController.swift */; };
+		49BA2D911AAE464D000BA267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA2D8F1AAE464D000BA267 /* Main.storyboard */; };
+		49BA2D931AAE464D000BA267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BA2D921AAE464D000BA267 /* Images.xcassets */; };
+		49BA2D961AAE464D000BA267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BA2D941AAE464D000BA267 /* LaunchScreen.xib */; };
+		49BA2DA21AAE464D000BA267 /* SE_PS4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA2DA11AAE464D000BA267 /* SE_PS4Tests.swift */; };
+		49DC7F991AB70C5C0084ACE4 /* OtherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC7F981AB70C5C0084ACE4 /* OtherDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BA2D9C1AAE464D000BA267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BA2D7C1AAE464D000BA267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BA2D831AAE464D000BA267;
+			remoteInfo = "SE PS4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490BA7241AAE4F49005CB0C8 /* SecondLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondLevelViewController.swift; sourceTree = "<group>"; };
+		49BA2D841AAE464D000BA267 /* SE PS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SE PS4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BA2D881AAE464D000BA267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA2D891AAE464D000BA267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49BA2D8B1AAE464D000BA267 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		49BA2D8D1AAE464D000BA267 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		49BA2D901AAE464D000BA267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BA2D921AAE464D000BA267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49BA2D951AAE464D000BA267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49BA2D9B1AAE464D000BA267 /* SE PS4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SE PS4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BA2DA01AAE464D000BA267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA2DA11AAE464D000BA267 /* SE_PS4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SE_PS4Tests.swift; sourceTree = "<group>"; };
+		49DC7F981AB70C5C0084ACE4 /* OtherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BA2D811AAE464D000BA267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA2D981AAE464D000BA267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BA2D7B1AAE464D000BA267 = {
+			isa = PBXGroup;
+			children = (
+				49BA2D861AAE464D000BA267 /* SE PS4 */,
+				49BA2D9E1AAE464D000BA267 /* SE PS4Tests */,
+				49BA2D851AAE464D000BA267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BA2D851AAE464D000BA267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BA2D841AAE464D000BA267 /* SE PS4.app */,
+				49BA2D9B1AAE464D000BA267 /* SE PS4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BA2D861AAE464D000BA267 /* SE PS4 */ = {
+			isa = PBXGroup;
+			children = (
+				49BA2D891AAE464D000BA267 /* AppDelegate.swift */,
+				49BA2D8B1AAE464D000BA267 /* MasterViewController.swift */,
+				490BA7241AAE4F49005CB0C8 /* SecondLevelViewController.swift */,
+				49DC7F981AB70C5C0084ACE4 /* OtherDetailViewController.swift */,
+				49BA2D8D1AAE464D000BA267 /* DetailViewController.swift */,
+				49BA2D8F1AAE464D000BA267 /* Main.storyboard */,
+				49BA2D921AAE464D000BA267 /* Images.xcassets */,
+				49BA2D941AAE464D000BA267 /* LaunchScreen.xib */,
+				49BA2D871AAE464D000BA267 /* Supporting Files */,
+			);
+			path = "SE PS4";
+			sourceTree = "<group>";
+		};
+		49BA2D871AAE464D000BA267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BA2D881AAE464D000BA267 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BA2D9E1AAE464D000BA267 /* SE PS4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49BA2DA11AAE464D000BA267 /* SE_PS4Tests.swift */,
+				49BA2D9F1AAE464D000BA267 /* Supporting Files */,
+			);
+			path = "SE PS4Tests";
+			sourceTree = "<group>";
+		};
+		49BA2D9F1AAE464D000BA267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BA2DA01AAE464D000BA267 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BA2D831AAE464D000BA267 /* SE PS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BA2DA51AAE464D000BA267 /* Build configuration list for PBXNativeTarget "SE PS4" */;
+			buildPhases = (
+				49BA2D801AAE464D000BA267 /* Sources */,
+				49BA2D811AAE464D000BA267 /* Frameworks */,
+				49BA2D821AAE464D000BA267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SE PS4";
+			productName = "SE PS4";
+			productReference = 49BA2D841AAE464D000BA267 /* SE PS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49BA2D9A1AAE464D000BA267 /* SE PS4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BA2DA81AAE464D000BA267 /* Build configuration list for PBXNativeTarget "SE PS4Tests" */;
+			buildPhases = (
+				49BA2D971AAE464D000BA267 /* Sources */,
+				49BA2D981AAE464D000BA267 /* Frameworks */,
+				49BA2D991AAE464D000BA267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BA2D9D1AAE464D000BA267 /* PBXTargetDependency */,
+			);
+			name = "SE PS4Tests";
+			productName = "SE PS4Tests";
+			productReference = 49BA2D9B1AAE464D000BA267 /* SE PS4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BA2D7C1AAE464D000BA267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrew Sowers";
+				TargetAttributes = {
+					49BA2D831AAE464D000BA267 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					49BA2D9A1AAE464D000BA267 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 49BA2D831AAE464D000BA267;
+					};
+				};
+			};
+			buildConfigurationList = 49BA2D7F1AAE464D000BA267 /* Build configuration list for PBXProject "SE PS4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BA2D7B1AAE464D000BA267;
+			productRefGroup = 49BA2D851AAE464D000BA267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BA2D831AAE464D000BA267 /* SE PS4 */,
+				49BA2D9A1AAE464D000BA267 /* SE PS4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BA2D821AAE464D000BA267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA2D911AAE464D000BA267 /* Main.storyboard in Resources */,
+				49BA2D961AAE464D000BA267 /* LaunchScreen.xib in Resources */,
+				49BA2D931AAE464D000BA267 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA2D991AAE464D000BA267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BA2D801AAE464D000BA267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA2D8E1AAE464D000BA267 /* DetailViewController.swift in Sources */,
+				490BA7251AAE4F49005CB0C8 /* SecondLevelViewController.swift in Sources */,
+				49DC7F991AB70C5C0084ACE4 /* OtherDetailViewController.swift in Sources */,
+				49BA2D8C1AAE464D000BA267 /* MasterViewController.swift in Sources */,
+				49BA2D8A1AAE464D000BA267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BA2D971AAE464D000BA267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BA2DA21AAE464D000BA267 /* SE_PS4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49BA2D9D1AAE464D000BA267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BA2D831AAE464D000BA267 /* SE PS4 */;
+			targetProxy = 49BA2D9C1AAE464D000BA267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49BA2D8F1AAE464D000BA267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BA2D901AAE464D000BA267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BA2D941AAE464D000BA267 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BA2D951AAE464D000BA267 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BA2DA31AAE464D000BA267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49BA2DA41AAE464D000BA267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BA2DA61AAE464D000BA267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SE PS4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BA2DA71AAE464D000BA267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SE PS4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49BA2DA91AAE464D000BA267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SE PS4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SE PS4.app/SE PS4";
+			};
+			name = Debug;
+		};
+		49BA2DAA1AAE464D000BA267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SE PS4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SE PS4.app/SE PS4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BA2D7F1AAE464D000BA267 /* Build configuration list for PBXProject "SE PS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA2DA31AAE464D000BA267 /* Debug */,
+				49BA2DA41AAE464D000BA267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BA2DA51AAE464D000BA267 /* Build configuration list for PBXNativeTarget "SE PS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA2DA61AAE464D000BA267 /* Debug */,
+				49BA2DA71AAE464D000BA267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BA2DA81AAE464D000BA267 /* Build configuration list for PBXNativeTarget "SE PS4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BA2DA91AAE464D000BA267 /* Debug */,
+				49BA2DAA1AAE464D000BA267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BA2D7C1AAE464D000BA267 /* Project object */;
+}
